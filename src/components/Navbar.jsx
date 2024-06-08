@@ -7,8 +7,8 @@ import { FaBars, FaTimes } from "react-icons/fa";
 const Navbar = ({ handleNav, navToggle }) => {
     
   return (
-      <nav className='h-20 main-bg-color white-color'>
-          <div className="container mx-auto px-4 lg:px-2 xl:px-1 h-full flex justify-between items-center">
+      <nav className='h-20 main-bg-color white-color fixed top-0 right-0 left-0'>
+          <div className=" container mx-auto px-4 lg:px-2 xl:px-1  h-full flex justify-between items-center">
               <Link to='/' className='flex items-center justify-center'>
                 <img src={logo} alt="main logo" className='w-[160px] lg:w-[190px]' />
               </Link>
