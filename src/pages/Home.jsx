@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero } from '../components'
+import { Hero, Properties } from '../components'
 
 const Home = () => {
   return (
@@ -7,6 +7,7 @@ const Home = () => {
       <div className="bg-white vector-img">
         <Hero />
       </div>
+        <Properties />
     </main>
   )
 }

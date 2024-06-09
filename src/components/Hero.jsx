@@ -7,10 +7,10 @@ const Hero = () => {
       <div className='grid lg:grid-cols-3 gap-x-6 place-items-center'>
 
         <div className='col-span-1 white-color '> 
-          <h1 className='text-4xl lg:text-5xl xl:text-6xl poppins-semibold mb-3'>
+          <h1 className='text-4xl lg:text-5xl xl:text-6xl poppins-semibold mb-3 tracking-wider'>
             Find Your Place
           </h1>
-          <p className='text-lg lg:text-xl mb-4'>
+          <p className=' tracking-wider text-lg lg:text-xl mb-4'>
             We are glad to have you around. Feel free to browse our website.
           </p>
           <div className='text-black relative'>
